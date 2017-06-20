@@ -20,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding>
                 <element signature="n#src#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -47,33 +47,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+            <state relative-caret-position="483">
+              <caret line="308" column="24" lean-forward="false" selection-start-line="308" selection-start-column="24" selection-end-line="308" selection-end-column="24" />
               <folding>
+                <element signature="e#26269#47943#2" expanded="true" />
                 <element signature="e#48160#48254#0" expanded="false" />
                 <element signature="e#48394#48502#0" expanded="false" />
-                <element signature="e#48812#48905#0" expanded="false" />
-                <element signature="e#49374#49415#0" expanded="false" />
-                <element signature="e#49423#49526#0" expanded="false" />
-                <element signature="e#49544#49619#0" expanded="false" />
-                <element signature="e#49629#49652#0" expanded="false" />
-                <element signature="e#49660#49748#0" expanded="false" />
-                <element signature="e#49762#49841#0" expanded="false" />
-                <element signature="e#49872#49933#0" expanded="false" />
-                <element signature="e#49955#50054#0" expanded="false" />
-                <marker date="1497869913167" expanded="false" signature="26271:47940" ph="data:image/jpeg" />
+                <element signature="e#48834#48927#0" expanded="false" />
+                <element signature="e#49396#49437#0" expanded="false" />
+                <element signature="e#49445#49548#0" expanded="false" />
+                <element signature="e#49679#49702#0" expanded="false" />
+                <element signature="e#49710#49798#0" expanded="false" />
+                <element signature="e#49812#49891#0" expanded="false" />
+                <element signature="e#49922#49983#0" expanded="false" />
+                <element signature="e#50005#50104#0" expanded="false" />
+                <marker date="1497925098900" expanded="false" signature="138:26243" ph="data:image/jpeg" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="0">
               <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -83,8 +83,6 @@
                 <element signature="n#!!block;n#render#0" expanded="false" />
                 <element signature="e#13888#15243#0" expanded="false" />
                 <element signature="e#15268#16554#0" expanded="false" />
-                <marker date="1497870804511" expanded="true" signature="5045:6136" ph="..." />
-                <marker date="1497870804511" expanded="true" signature="5129:6103" ph="data:" />
               </folding>
             </state>
           </provider>
@@ -122,8 +120,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
@@ -134,8 +132,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1605" />
-    <option name="y" value="96" />
+    <option name="x" value="1408" />
+    <option name="y" value="117" />
     <option name="width" value="2105" />
     <option name="height" value="1040" />
   </component>
@@ -312,14 +310,15 @@
       <workItem from="1497862211773" duration="189000" />
       <workItem from="1497862441783" duration="622000" />
       <workItem from="1497868726694" duration="1928000" />
+      <workItem from="1497924813642" duration="489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28366000" />
+    <option name="totallyTimeSpent" value="28855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1605" y="96" width="2105" height="1040" extended-state="0" />
+    <frame x="1408" y="117" width="2105" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14043583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -355,8 +354,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="720">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="n#src#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -381,29 +380,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="1170">
+          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
           <folding>
+            <element signature="e#26269#47943#2" expanded="true" />
             <element signature="e#48160#48254#0" expanded="false" />
             <element signature="e#48394#48502#0" expanded="false" />
-            <element signature="e#48812#48905#0" expanded="false" />
-            <element signature="e#49374#49415#0" expanded="false" />
-            <element signature="e#49423#49526#0" expanded="false" />
-            <element signature="e#49544#49619#0" expanded="false" />
-            <element signature="e#49629#49652#0" expanded="false" />
-            <element signature="e#49660#49748#0" expanded="false" />
-            <element signature="e#49762#49841#0" expanded="false" />
-            <element signature="e#49872#49933#0" expanded="false" />
-            <element signature="e#49955#50054#0" expanded="false" />
-            <marker date="1497869913167" expanded="false" signature="26271:47940" ph="data:image/jpeg" />
+            <element signature="e#48834#48927#0" expanded="false" />
+            <element signature="e#49396#49437#0" expanded="false" />
+            <element signature="e#49445#49548#0" expanded="false" />
+            <element signature="e#49679#49702#0" expanded="false" />
+            <element signature="e#49710#49798#0" expanded="false" />
+            <element signature="e#49812#49891#0" expanded="false" />
+            <element signature="e#49922#49983#0" expanded="false" />
+            <element signature="e#50005#50104#0" expanded="false" />
+            <marker date="1497925098900" expanded="false" signature="138:26243" ph="data:image/jpeg" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="1530">
+          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="n#!!block;n#getCity1#0" expanded="false" />
@@ -412,8 +411,6 @@
             <element signature="n#!!block;n#render#0" expanded="false" />
             <element signature="e#13888#15243#0" expanded="false" />
             <element signature="e#15268#16554#0" expanded="false" />
-            <marker date="1497870804511" expanded="true" signature="5045:6136" ph="..." />
-            <marker date="1497870804511" expanded="true" signature="5129:6103" ph="data:" />
           </folding>
         </state>
       </provider>
@@ -449,18 +446,18 @@
         <state relative-caret-position="420">
           <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
+            <element signature="e#26269#47943#2" expanded="true" />
             <element signature="e#48160#48254#0" expanded="false" />
             <element signature="e#48394#48502#0" expanded="false" />
-            <element signature="e#48812#48905#0" expanded="false" />
-            <element signature="e#49374#49415#0" expanded="false" />
-            <element signature="e#49423#49526#0" expanded="false" />
-            <element signature="e#49544#49619#0" expanded="false" />
-            <element signature="e#49629#49652#0" expanded="false" />
-            <element signature="e#49660#49748#0" expanded="false" />
-            <element signature="e#49762#49841#0" expanded="false" />
-            <element signature="e#49872#49933#0" expanded="false" />
-            <element signature="e#49955#50054#0" expanded="false" />
-            <marker date="1497869913167" expanded="false" signature="26271:47940" ph="data:image/jpeg" />
+            <element signature="e#48834#48927#0" expanded="false" />
+            <element signature="e#49396#49437#0" expanded="false" />
+            <element signature="e#49445#49548#0" expanded="false" />
+            <element signature="e#49679#49702#0" expanded="false" />
+            <element signature="e#49710#49798#0" expanded="false" />
+            <element signature="e#49812#49891#0" expanded="false" />
+            <element signature="e#49922#49983#0" expanded="false" />
+            <element signature="e#50005#50104#0" expanded="false" />
+            <marker date="1497925098900" expanded="false" signature="138:26243" ph="data:image/jpeg" />
           </folding>
         </state>
       </provider>
@@ -477,8 +474,6 @@
             <element signature="n#!!block;n#render#0" expanded="false" />
             <element signature="e#13888#15243#0" expanded="false" />
             <element signature="e#15268#16554#0" expanded="false" />
-            <marker date="1497870804511" expanded="true" signature="5045:6136" ph="..." />
-            <marker date="1497870804511" expanded="true" signature="5129:6103" ph="data:" />
           </folding>
         </state>
       </provider>
@@ -514,18 +509,18 @@
         <state relative-caret-position="420">
           <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
+            <element signature="e#26269#47943#2" expanded="true" />
             <element signature="e#48160#48254#0" expanded="false" />
             <element signature="e#48394#48502#0" expanded="false" />
-            <element signature="e#48812#48905#0" expanded="false" />
-            <element signature="e#49374#49415#0" expanded="false" />
-            <element signature="e#49423#49526#0" expanded="false" />
-            <element signature="e#49544#49619#0" expanded="false" />
-            <element signature="e#49629#49652#0" expanded="false" />
-            <element signature="e#49660#49748#0" expanded="false" />
-            <element signature="e#49762#49841#0" expanded="false" />
-            <element signature="e#49872#49933#0" expanded="false" />
-            <element signature="e#49955#50054#0" expanded="false" />
-            <marker date="1497869913167" expanded="false" signature="26271:47940" ph="data:image/jpeg" />
+            <element signature="e#48834#48927#0" expanded="false" />
+            <element signature="e#49396#49437#0" expanded="false" />
+            <element signature="e#49445#49548#0" expanded="false" />
+            <element signature="e#49679#49702#0" expanded="false" />
+            <element signature="e#49710#49798#0" expanded="false" />
+            <element signature="e#49812#49891#0" expanded="false" />
+            <element signature="e#49922#49983#0" expanded="false" />
+            <element signature="e#50005#50104#0" expanded="false" />
+            <marker date="1497925098900" expanded="false" signature="138:26243" ph="data:image/jpeg" />
           </folding>
         </state>
       </provider>
@@ -542,8 +537,69 @@
             <element signature="n#!!block;n#render#0" expanded="false" />
             <element signature="e#13888#15243#0" expanded="false" />
             <element signature="e#15268#16554#0" expanded="false" />
-            <marker date="1497870804511" expanded="true" signature="5045:6136" ph="..." />
-            <marker date="1497870804511" expanded="true" signature="5129:6103" ph="data:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#111597#111603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/zepto.cookie.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#26269#47943#2" expanded="true" />
+            <element signature="e#48160#48254#0" expanded="false" />
+            <element signature="e#48394#48502#0" expanded="false" />
+            <element signature="e#48834#48927#0" expanded="false" />
+            <element signature="e#49396#49437#0" expanded="false" />
+            <element signature="e#49445#49548#0" expanded="false" />
+            <element signature="e#49679#49702#0" expanded="false" />
+            <element signature="e#49710#49798#0" expanded="false" />
+            <element signature="e#49812#49891#0" expanded="false" />
+            <element signature="e#49922#49983#0" expanded="false" />
+            <element signature="e#50005#50104#0" expanded="false" />
+            <marker date="1497925098900" expanded="false" signature="138:26243" ph="data:image/jpeg" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#getCity1#0" expanded="false" />
+            <element signature="n#!!block;n#getCity2#0" expanded="false" />
+            <element signature="n#!!block;n#getCity3#0" expanded="false" />
+            <element signature="n#!!block;n#render#0" expanded="false" />
+            <element signature="e#13888#15243#0" expanded="false" />
+            <element signature="e#15268#16554#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -571,18 +627,18 @@
         <state relative-caret-position="420">
           <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
+            <element signature="e#26269#47943#2" expanded="true" />
             <element signature="e#48160#48254#0" expanded="false" />
             <element signature="e#48394#48502#0" expanded="false" />
-            <element signature="e#48812#48905#0" expanded="false" />
-            <element signature="e#49374#49415#0" expanded="false" />
-            <element signature="e#49423#49526#0" expanded="false" />
-            <element signature="e#49544#49619#0" expanded="false" />
-            <element signature="e#49629#49652#0" expanded="false" />
-            <element signature="e#49660#49748#0" expanded="false" />
-            <element signature="e#49762#49841#0" expanded="false" />
-            <element signature="e#49872#49933#0" expanded="false" />
-            <element signature="e#49955#50054#0" expanded="false" />
-            <marker date="1497869913167" expanded="false" signature="26271:47940" ph="data:image/jpeg" />
+            <element signature="e#48834#48927#0" expanded="false" />
+            <element signature="e#49396#49437#0" expanded="false" />
+            <element signature="e#49445#49548#0" expanded="false" />
+            <element signature="e#49679#49702#0" expanded="false" />
+            <element signature="e#49710#49798#0" expanded="false" />
+            <element signature="e#49812#49891#0" expanded="false" />
+            <element signature="e#49922#49983#0" expanded="false" />
+            <element signature="e#50005#50104#0" expanded="false" />
+            <marker date="1497925098900" expanded="false" signature="138:26243" ph="data:image/jpeg" />
           </folding>
         </state>
       </provider>
@@ -599,8 +655,6 @@
             <element signature="n#!!block;n#render#0" expanded="false" />
             <element signature="e#13888#15243#0" expanded="false" />
             <element signature="e#15268#16554#0" expanded="false" />
-            <marker date="1497870804511" expanded="true" signature="5045:6136" ph="..." />
-            <marker date="1497870804511" expanded="true" signature="5129:6103" ph="data:" />
           </folding>
         </state>
       </provider>
@@ -609,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="n#src#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -639,30 +692,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-          <folding>
-            <element signature="e#48160#48254#0" expanded="false" />
-            <element signature="e#48394#48502#0" expanded="false" />
-            <element signature="e#48812#48905#0" expanded="false" />
-            <element signature="e#49374#49415#0" expanded="false" />
-            <element signature="e#49423#49526#0" expanded="false" />
-            <element signature="e#49544#49619#0" expanded="false" />
-            <element signature="e#49629#49652#0" expanded="false" />
-            <element signature="e#49660#49748#0" expanded="false" />
-            <element signature="e#49762#49841#0" expanded="false" />
-            <element signature="e#49872#49933#0" expanded="false" />
-            <element signature="e#49955#50054#0" expanded="false" />
-            <marker date="1497869913167" expanded="false" signature="26271:47940" ph="data:image/jpeg" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="0">
           <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -672,8 +704,27 @@
             <element signature="n#!!block;n#render#0" expanded="false" />
             <element signature="e#13888#15243#0" expanded="false" />
             <element signature="e#15268#16554#0" expanded="false" />
-            <marker date="1497870804511" expanded="true" signature="5045:6136" ph="..." />
-            <marker date="1497870804511" expanded="true" signature="5129:6103" ph="data:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="308" column="24" lean-forward="false" selection-start-line="308" selection-start-column="24" selection-end-line="308" selection-end-column="24" />
+          <folding>
+            <element signature="e#26269#47943#2" expanded="true" />
+            <element signature="e#48160#48254#0" expanded="false" />
+            <element signature="e#48394#48502#0" expanded="false" />
+            <element signature="e#48834#48927#0" expanded="false" />
+            <element signature="e#49396#49437#0" expanded="false" />
+            <element signature="e#49445#49548#0" expanded="false" />
+            <element signature="e#49679#49702#0" expanded="false" />
+            <element signature="e#49710#49798#0" expanded="false" />
+            <element signature="e#49812#49891#0" expanded="false" />
+            <element signature="e#49922#49983#0" expanded="false" />
+            <element signature="e#50005#50104#0" expanded="false" />
+            <marker date="1497925098900" expanded="false" signature="138:26243" ph="data:image/jpeg" />
           </folding>
         </state>
       </provider>
