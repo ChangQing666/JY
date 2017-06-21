@@ -115,6 +115,7 @@ body {
     height: 100%;
     background: rgba(255, 255, 255, 1);
     border-radius: 10px;
+    /*position:relative;*/
 }
 .card:before{
     content:"";
@@ -170,7 +171,6 @@ body {
 .purpose {
     padding-top: 1rem;
 }
-
 .purpose li {
     text-align: center;
     line-height: 1.1rem;
@@ -427,7 +427,7 @@ body {
 
 /*进入家园网*/
 .tojyall {
-    /*padding-top: 8%;*/
+    padding-top: 8%;
     box-sizing: border-box;
 }
 
@@ -471,52 +471,6 @@ body {
     width: 35.9%;
     margin: 0 auto;
 }
-
-/*预约成功页面小屏样式*/
-.tojyall.smallScreen{
-
-}
-.tojyall.smallScreen .icon {
-    width: 23%;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 2.8%;
-}
-
-.tojyall.smallScreen p {
-    font-size: .37rem;
-    /*line-height: 1.3em;*/
-    text-align: center;
-    width: 100%;
-}
-
-.tojyall.smallScreen div.spec {
-    font-size: .35rem;
-    /*line-height: 1.2em;*/
-    text-align: center;
-    width: 100%;
-    color: #ccc;
-}
-
-.tojyall.smallScreen div.spec.first {
-    margin-top: 2%;
-}
-
-.tojyall.smallScreen a {
-    font-size: .4rem;
-    color: #fc6;
-    text-align: center;
-    display: block;
-    /*margin:.73rem auto .5rem;*/
-    margin: 2% auto 2%;
-}
-
-.tojyall.smallScreen .wxcode {
-    display: block;
-    width: 30%;
-    margin: 0 auto;
-}
-
 
 .weui-slider-box {
     display: -webkit-box;
