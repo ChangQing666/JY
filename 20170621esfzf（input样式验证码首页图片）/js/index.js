@@ -8,16 +8,16 @@ var swiper = new Swiper('.swiper-container', {
         stretch:-15,
         depth: 150,
         modifier: 1,
-        slideShadows: false
+        slideShadows : false
     },
-    noSwiping: true,
-    roundLengths: true,
-    initialSlide: 0,
-    speed: 600,
-    slidesPerView: "auto",
-    centeredSlides: true,
-    followFinger: false,
-    onSlideChangeStart: function(swiper){
+    noSwiping : true,
+    roundLengths : true,
+    initialSlide :0,
+    speed:600,
+    slidesPerView:"auto",
+    centeredSlides : true,
+    followFinger : false,
+    onSlideChangeStart:function(swiper){
         if(swiper.activeIndex==0||swiper.activeIndex==7){
             $(".swiper-pagination").hide();
         }else{
@@ -146,7 +146,7 @@ $(".select-scroll").on("click", "li", function (e) {
                 var curCityName = $(this).attr("cityname");
                 var curName = $(this).attr("name");
                 var curCityId =  $(this).attr("cityid");
-                var curCountyId = $(this).attr("countyid");
+                var curCountyId= $(this).attr("countyid");
                 var curCid = $(this).attr("cid");
                 var str =  $(".selected_box").html();
                 var curIndex = $(this).attr("index");
@@ -168,17 +168,16 @@ $(".select-scroll").on("click", "li", function (e) {
     }
 });
 /*点击tab项*/
-// 点击二级城市
 $(".select-value").find("li").eq(0).click(function () {
     cityType = 1;
     cityChecked[1] = 0;
     cityChecked[2] = 0;
     render(city1);
     $(this).addClass("selected").siblings().removeClass("selected");
+    // $(".selected_box").html("");
     $(".select-value").find("li").eq(1).text("").hide();
     $(".select-value").find("li").eq(2).text("").hide();
 });
-// 点击三级城市
 $(".select-value").find("li").eq(1).click(function () {
     cityType = 2;
     cityChecked[2] = 0;
@@ -187,7 +186,7 @@ $(".select-value").find("li").eq(1).click(function () {
     $(".select-value").find("li").eq(2).text("").hide();
 });
 
-/*点击下面选中的商圈*/
+/*点击选中的三级地区*/
 $(".selected_box").on("click",".btn_close",function(){
     $(this).parent().remove();
     var curId =Number($(this).parent().attr("id").substring(5)) ;
@@ -217,7 +216,7 @@ function getCity2(id) {
 }
 function getCity3(id) {
     $.ajax({
-        // url: "https://m.jyall.com/entrust/querTown/"+id,//获取四级地址
+        // 获取四级地址url: "https://m.jyall.com/entrust/querTown/"+id,
         url: "https://m.jyall.com/common-city/v1/district/queryDistrictByCounty/"+id,//获取商圈
         dataType : "json",
         success: function (res) {
@@ -253,7 +252,7 @@ function render(citylist) {
     requestFlag =true;
 }
 
-//  房源特色
+//    房源特色
 $(".feature .item").click(function(){
     $(this).toggleClass("selected");
     if($(this).hasClass("selected")){
@@ -286,6 +285,8 @@ Array.prototype.remove = function(val) {
         this.splice(index, 1);
     }
 };
+//var emp = ['abs','dsf','sdf','fd']
+//emp.remove('fd');
 
 
 //开始找房
@@ -300,8 +301,13 @@ var wwwURL = (/https/i.test(location.protocol) === false ? 'http://' : 'https://
     isOnline=true,
     domain_v1 = isOnline ? wwwURL:'/api.php?jsApiUrl=' + wwwURL;
 $("#btnSubmit").click(function () {
+    var contacter=$("#name").val(),
         mobilePhone=$("#phone").val(),
         mobileCode=$("#yzm").val();
+    // if ("" == contacter || !/[\u4e00-\u9fa5|a-z|A-Z]/.test(contacter)) {
+    //     toast("请输入汉字或英文字母姓名");
+    //     return;
+    // }
     if(mobilePhone==""){
         toast("请输入手机号");
         return;
@@ -352,8 +358,7 @@ $("#btnSubmit").click(function () {
         citySite         =  "00000",//站点
         cellphoneCode    =  $("#yzm").val();//验证码
     var data = {
-        appointTime: appointTime,
-        name: name,
+        appointTime:appointTime,
         cellphone: cellphone,
         source: source,
         citySite: citySite,
@@ -371,9 +376,8 @@ $("#btnSubmit").click(function () {
         cellphoneCode: cellphoneCode
     };
     data = JSON.stringify(data);
-    // console.log("data",data)
     $.ajax({
-        url:"https://m.jyall.com/jygoods-api/v1/dispatch/addWithValidate/1/"+ "FCESF20170616001"  + "/" + 3 + "?validate=1",
+        url:"https://m.jyall.com/jygoods-api/v1/dispatch/addWithValidate/1/"+ "FCESF20170616001"  + "/" + 2 + "?validate=1",
         beforeSend: function(xhr){
             xhr.setRequestHeader('deviceId', _track_d);
             xhr.setRequestHeader('APPkey', APPkey);
@@ -408,6 +412,7 @@ $("#btnSubmit").click(function () {
 $(function(){
     var $sliderTrack = $('#sliderTrack'),
         $sliderHandler = $('#sliderHandler'),
+        $sliderValue = $('#sliderValue');
         $trackerModal = $('.tracker_modal');
     var totalLen = $('#sliderInner').width(),
         startLeft = 0,
@@ -425,6 +430,7 @@ $(function(){
             $sliderTrack.css('width', percent + '%');
             $sliderHandler.css('left', percent + '%');
             $trackerModal.css('left', percent + '%');
+            $sliderValue.text(percent);
             if(percent==100){
                 $trackerModal.css({fontSize:".28rem"}).text("1000万以上")
             }
@@ -439,8 +445,8 @@ $(function(){
 });
 
 // 发送验证码
-var interval,seconds = 60,flag=false;
 $(function(){
+    var seconds = 60,interval=null,flag=false;
     $(".hqyzm").click(function () {
         if(flag) {
             return;
@@ -469,15 +475,13 @@ $(function(){
                 flag = false;
             }
         },1000);
+
         $.ajax({
             url: "https://m.jyall.com/entrust/sendvcode?mobile="+num,
             dataType : "jsonp",
             success: function (res) {
                 if(res.state==0){
-                    toast(res.message);//验证码发送失败，取消定时器
-                    clearInterval(interval);
-                    $(".hqyzm").text("获取验证码").removeClass("hqyzm-djs");
-                    flag = false;
+                    toast(res.message);
                 }else if(res.state==1){
                     toast("验证码已发送")
                 }
@@ -485,6 +489,7 @@ $(function(){
         });
     })
 })
+
 // toast提示
 var timer = '';
 function toast(str){
@@ -497,7 +502,7 @@ function toast(str){
 
 // 小屏幕样式兼容
 $(function(){
-    // console.log((window.innerHeight+"_"+screen.height+"_"+window.innerHeight/screen.height));
+    console.log((window.innerHeight+"_"+screen.height+"_"+window.innerHeight/screen.height))
     if(window.innerHeight/screen.height<0.801){
         var percent = window.innerHeight/screen.height;
         if(percent<0.801){
