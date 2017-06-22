@@ -495,8 +495,7 @@ body {
 }
 
 .tojyall p {
-    /*font-size: .43rem;*/
-    font-size: .4rem;
+    font-size: .43rem;
     line-height: 1.3em;
     text-align: center;
     width: 100%;
@@ -515,19 +514,17 @@ body {
 }
 
 .tojyall a {
-    font-size: .4rem;
+    font-size: .5rem;
     color: #fc6;
     text-align: center;
     display: block;
     /*margin:.73rem auto .5rem;*/
-    /*margin: 3% auto 2.5%;*/
-    margin: 2% auto 1.5%;
+    margin: 3% auto 2.5%;
 }
 
 .tojyall .wxcode {
     display: block;
-    /*width: 35.9%;*/
-    width: 34%;
+    width: 35.9%;
     margin: 0 auto;
 }
 
