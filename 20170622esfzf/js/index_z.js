@@ -12,7 +12,7 @@ var swiper = new Swiper('.swiper-container', {
     },
     noSwiping: true,
     roundLengths: true,
-    initialSlide: 0,
+    initialSlide:0,
     speed: 600,
     slidesPerView: "auto",
     centeredSlides: true,
@@ -154,9 +154,9 @@ $z(".select-scroll").on("click", "li", function (e) {
                 str+= "<span class='item'  id='"
                     + curIndexId
                     +"' cityId='"+curCityId+"'cityName='"+curCityName+"' countyName='"+curCountyName+"' name='"+curName +"' cid='"+ curCid
-                    +"'>"
+                    +"'><span>"
                     + curName
-                    +" <img class='btn_close' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAQAAAAm93DmAAACkUlEQVRIx6WXS1IaQRiAuyh14Razo7wGOUnUnERPgBewIHdgY5nKDXogsxHGXWqSUEDMg0diNKVQWF8WMz39D3QPUHZv5vH3N/33/xyF8s4SVU5pEjHhiScmRDQ5pUrJv8r3okKNPr7Rp0alEKjFpMwFM9aNGReUdX6lC8gbRmw6RhwVAtmhLuUXjIiJCGnRIiQiZsQiD62z4wGyz5WVeySmjXbMNjGPEnnFvgPIDpdG4pkegRNmZkCPZ4u8THaZBzbs3jqFMDM7cp+NJSBH5s0D4UY4jSbkwSJPJLBsLPu4BS5BZruc8MoC6+bsOlvhNJpre5YNAzxknjzpZWIDFtx6IS0iYbSeAc45TIA1o64VSr76w6PmP2AqLJ6pXUMpSgySu1gs+plKfPfgYCaexQY4oKSomqho5/xsnMrcOnHwKefqWfRUFWcmLJddd7KC/Ji5SbwknYX/qaLpFtEETFOpb2twQumm4ia5ipwBZpBD2tyn158dkpEB3ihzWKHHQX5n6S8ZXzyWT8dYGcnA63N/RGL56k0W5rtrgZowi4VpQfaxwEKVNS3uxA573o9alQuMInFPhUpLo3jdRp5fnzZ/C5DSbTyOLS08SOPh3mtp6divXaGnCTLcUISY2xdbudBzJoflKCkOvnxycKavX87UIJFzb/pSVIwvWqdYeHC2kkxWE+yMiikBF6YEXKdCfebi7FbN1c20ESWgLovU+MVFakxZltHjF5fRtwWF/nrDeicK/bvVzmHvRa3InrtZ+pBvlloekyw1S++dzZJWWrFrFbftXJeQgICQrquda7Bb3HAeb9Vwnngaztw8oL5RS1znYJum/ZyhFzbkfE3T7v2tOKNJxJQ5c6ZENDkr/q34D4W+dHxkTkUlAAAAAElFTkSuQmCC' >"
+                    +" </span><img class='btn_close' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAQAAAAm93DmAAACkUlEQVRIx6WXS1IaQRiAuyh14Razo7wGOUnUnERPgBewIHdgY5nKDXogsxHGXWqSUEDMg0diNKVQWF8WMz39D3QPUHZv5vH3N/33/xyF8s4SVU5pEjHhiScmRDQ5pUrJv8r3okKNPr7Rp0alEKjFpMwFM9aNGReUdX6lC8gbRmw6RhwVAtmhLuUXjIiJCGnRIiQiZsQiD62z4wGyz5WVeySmjXbMNjGPEnnFvgPIDpdG4pkegRNmZkCPZ4u8THaZBzbs3jqFMDM7cp+NJSBH5s0D4UY4jSbkwSJPJLBsLPu4BS5BZruc8MoC6+bsOlvhNJpre5YNAzxknjzpZWIDFtx6IS0iYbSeAc45TIA1o64VSr76w6PmP2AqLJ6pXUMpSgySu1gs+plKfPfgYCaexQY4oKSomqho5/xsnMrcOnHwKefqWfRUFWcmLJddd7KC/Ji5SbwknYX/qaLpFtEETFOpb2twQumm4ia5ipwBZpBD2tyn158dkpEB3ihzWKHHQX5n6S8ZXzyWT8dYGcnA63N/RGL56k0W5rtrgZowi4VpQfaxwEKVNS3uxA573o9alQuMInFPhUpLo3jdRp5fnzZ/C5DSbTyOLS08SOPh3mtp6divXaGnCTLcUISY2xdbudBzJoflKCkOvnxycKavX87UIJFzb/pSVIwvWqdYeHC2kkxWE+yMiikBF6YEXKdCfebi7FbN1c20ESWgLovU+MVFakxZltHjF5fRtwWF/nrDeicK/bvVzmHvRa3InrtZ+pBvlloekyw1S++dzZJWWrFrFbftXJeQgICQrquda7Bb3HAeb9Vwnngaztw8oL5RS1znYJum/ZyhFzbkfE3T7v2tOKNJxJQ5c6ZENDkr/q34D4W+dHxkTkUlAAAAAElFTkSuQmCC' >"
                     +"</span> "
 
                 $z(".selected_box").html(str);
@@ -291,7 +291,7 @@ Array.prototype.remove = function(val) {
 //开始找房
 /*立即预约*/
 var getQueryString = function(name) {
-    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$z)", "i");
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
     var r = window.location.search.substr(1).match(reg);
     if (r != null) return unescape(r[2]);
     return "";
@@ -306,7 +306,7 @@ $z("#btnSubmit").click(function () {
         toast("请输入手机号");
         return;
     }
-    if(!/^1[34578]\d{9}$z/.test(mobilePhone)){
+    if(!/^1[34578]\d{9}$/.test(mobilePhone)){
         toast("请输入正确手机号");
         return;
     }
@@ -315,15 +315,7 @@ $z("#btnSubmit").click(function () {
         return;
     }
 
-    // var source = getQueryString('source')=='app'?'2':'3';
-    var source;
-    if(getQueryString('source')=='app'){
-        source=2;
-    }else if(getQueryString('source')=='M'){
-        source=3;
-    }else{
-        source=1;
-    }
+    var source = getQueryString('source')=='app'?'2':'3';
     var appointID = "FCESF20170616001";
     var catagoryOneId = "1";
     var APPkey= getQueryString('APPkey') ? getQueryString('APPkey') : 'b40538ab5bef1ffd18605efda7f820d9';
@@ -373,7 +365,7 @@ $z("#btnSubmit").click(function () {
     data = JSON.stringify(data);
     // console.log("data",data)
     $z.ajax({
-        url:"https://m.jyall.com/jygoods-api/v1/dispatch/addWithValidate/1/"+ "FCESF20170616001"  + "/" + 3 + "?validate=1",
+        url:"https://m.jyall.com/jygoods-api/v1/dispatch/addWithValidate/1/"+ "FCESF20170616001"  + "/" + source + "?validate=1",
         beforeSend: function(xhr){
             xhr.setRequestHeader('deviceId', _track_d);
             xhr.setRequestHeader('APPkey', APPkey);
@@ -450,7 +442,7 @@ $z(function(){
             toast("请输入手机号");
             return;
         }
-        if(!/^1[34578]\d{9}$z/.test(num)){
+        if(!/^1[34578]\d{9}$/.test(num)){
             toast("请输入正确手机号");
             return;
         }
@@ -497,12 +489,13 @@ function toast(str){
 
 // 小屏幕样式兼容
 $z(function(){
-    // console.log((window.innerHeight+"_"+screen.height+"_"+window.innerHeight/screen.height));
+    console.log((window.innerHeight+"_"+screen.height+"_"+window.innerHeight/screen.height));
     if(window.innerHeight/screen.height<0.801){
         var percent = window.innerHeight/screen.height;
         if(percent<0.801){
             percent = percent*.4;
         }
+
         $z(".fixgapPadding").map(function(i,item){
             var fixgap1 = parseFloat($z(item).css("padding-top"));
             fixgap1*=percent;
